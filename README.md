@@ -1,1 +1,1 @@
-# CSS-Mem-Slider
+# https://jnuka.github.io/cssMemSlider/cssMemSlider/
