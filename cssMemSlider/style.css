@@ -126,9 +126,12 @@ label {
   transition: all 0.3s ease-out;
 }
 
-label:hover .label__inner,
-label:active .label__inner {
+label:hover .label__inner {
   background-color: white;
+}
+
+label:active .label__inner {
+  background-color: lightgray;
 }
 
 #slider-one:checked ~ .slider__constrols .slider__labels-one .label__inner {
