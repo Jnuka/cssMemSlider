@@ -126,7 +126,8 @@ label {
   transition: all 0.3s ease-out;
 }
 
-label:hover .label__inner {
+label:hover .label__inner,
+label:active .label__inner {
   background-color: white;
 }
 
@@ -155,23 +156,28 @@ label:hover .label__inner {
   background-color: #3e5829;
 }
 
-#slider-one:checked ~ .slider__constrols .slider__labels-one:hover .label__inner {
+#slider-one:checked ~ .slider__constrols .slider__labels-one:hover .label__inner,
+#slider-one:checked ~ .slider__constrols .slider__labels-one:active .label__inner {
   border: 0.15rem solid white;
 }
 
-#slider-two:checked ~ .slider__constrols .slider__labels-two:hover .label__inner {
+#slider-two:checked ~ .slider__constrols .slider__labels-two:hover .label__inner,
+#slider-two:checked ~ .slider__constrols .slider__labels-two:active .label__inner {
   border: 0.15rem solid white;
 }
 
-#slider-three:checked ~ .slider__constrols .slider__labels-three:hover .label__inner {
+#slider-three:checked ~ .slider__constrols .slider__labels-three:hover .label__inner,
+#slider-three:checked ~ .slider__constrols .slider__labels-three:active .label__inner {
   border: 0.15rem solid white;
 }
 
+#slider-four:checked ~ .slider__constrols .slider__labels-four:active .label__inner,
 #slider-four:checked ~ .slider__constrols .slider__labels-four:hover .label__inner {
   border: 0.15rem solid white;
 }
 
-#slider-five:checked ~ .slider__constrols .slider__labels-five:hover .label__inner {
+#slider-five:checked ~ .slider__constrols .slider__labels-five:hover .label__inner,
+#slider-five:checked ~ .slider__constrols .slider__labels-five:active .label__inner {
   border: 0.15rem solid white;
 }
 
